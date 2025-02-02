@@ -7,7 +7,7 @@ import CreateTransactionDialog from './_components/create-transaction-dialog'
 import Overview from './_components/overview'
 import History from './_components/history'
 
-async function page() {
+async function Page() {
   const user = await currentUser()
 
   if (!user) {
@@ -61,4 +61,4 @@ async function page() {
     </div>
   )
 }
-export default page
+export default Page

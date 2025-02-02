@@ -22,7 +22,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      appearance={{
+        baseTheme: undefined,
+      }}
+      afterSignOutUrl="/sign-in"
+    >
       <html lang="en" suppressHydrationWarning>
         <body className={poppins.variable}>
           <RootProviders>{children}</RootProviders>
