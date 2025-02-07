@@ -22,7 +22,7 @@ A simple, efficient, and user-friendly expense tracker that helps you manage you
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/andrechandra/expense-tracker.git
+   git clone https://github.com/yourusername/expense-tracker.git
    cd expense-tracker
    ```
 
@@ -47,4 +47,13 @@ A simple, efficient, and user-friendly expense tracker that helps you manage you
 
 6. **Visit:** [http://localhost:3000](http://localhost:3000)
 
+## 📈 Future Improvements
 
+- Budget planning tools  
+- Advanced reporting and analytics  
+- Recurring transactions  
+- Dark mode support  
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
