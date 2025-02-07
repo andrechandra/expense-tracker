@@ -1,147 +1,50 @@
-# Next.js + Tailwind CSS + TypeScript Starter Template
+# 💰 Expense Tracker App
 
-A modern, feature-rich starter template built with Next.js, Tailwind CSS, TypeScript, and shadcn/ui. Perfect for building scalable web applications with best practices and developer experience in mind.
+A simple, efficient, and user-friendly expense tracker that helps you manage your finances with ease. Track your income, expenses, categorize transactions, and handle multiple currencies—all in one place.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+## 🚀 Tech Stack
 
-## 🚀 Features
+- **Next.js** – React framework for fast, modern web applications  
+- **Clerk** – User authentication and management  
+- **Tailwind CSS** – Utility-first CSS framework for sleek, responsive designs  
+- **ShadCN** – Beautiful UI components for a polished interface  
+- **Prisma** – ORM for efficient database management  
 
-- ⚡️ **Next.js 14** with App Router and Server Components
-- 💎 **Tailwind CSS** for utility-first styling
-- 🔍 **TypeScript** for type safety
-- 🎨 **shadcn/ui** for beautiful, accessible components
-- 🧪 **Jest** and **React Testing Library** for testing
-- 📝 **ESLint** and **Prettier** for code quality
-- 📱 Fully responsive design
-- 🌙 Dark mode support
-- 🔧 Absolute imports
-- 📄 SEO optimization ready
-- 🚦 Pre-configured with best practices
+## ✨ Features
 
-## 📦 Getting Started
+- **🔐 User Authentication:** Secure login and account management with Clerk  
+- **💸 Income & Expense Tracking:** Record and monitor your financial activity effortlessly  
+- **📊 Categories:** Organize transactions with custom categories for better insights  
+- **🌍 Multi-Currency Support:** Manage transactions in different currencies seamlessly  
+- **📁 Transaction Management:** Edit, delete, and view detailed records of all your transactions  
 
-### Prerequisites
+## ⚙️ Getting Started
 
-- Node.js 18+
-- npm or yarn or pnpm
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/andrechandra/expense-tracker.git
+   cd expense-tracker
+   ```
 
-### Installation
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-1. Clone the repository:
+3. **Set up environment variables:**
+   - Create a `.env` file based on `.env.example`
+   - Add your database URL, Clerk API keys, etc.
 
-```bash
-git clone https://github.com/AndreChips/next-tailwind-starter.git
-cd next-tailwind-starter
-```
+4. **Run database migrations:**
+   ```bash
+   npx prisma migrate dev
+   ```
 
-2. Install dependencies:
+5. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+6. **Visit:** [http://localhost:3000](http://localhost:3000)
 
-3. Run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## 🏗 Project Structure
-
-```
-.
-├── __tests__/          # Test files
-├── public/            # Static files
-├── app/          # App router pages
-├── components/   # React components
-│   ├── ui/      # shadcn/ui components
-│   └── ...      # Custom components
-├── lib/         # Utility functions
-├── .eslintrc.json  # ESLint configuration
-├── .prettierrc     # Prettier configuration
-├── jest.config.js  # Jest configuration
-└── tailwind.config.js # Tailwind configuration
-```
-
-## 🧪 Testing
-
-Run tests with:
-
-```bash
-npm run test
-# or
-yarn test
-```
-
-## 🎨 Customization
-
-### Tailwind CSS
-
-Customize your theme in `tailwind.config.js`:
-
-```js
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        // Add your colors
-      },
-    },
-  },
-}
-```
-
-### shadcn/ui Components
-
-Add new components using the CLI:
-
-```bash
-npx shadcn-ui@latest add [component-name]
-```
-
-## 📝 Scripts
-
-- `dev` - Start development server
-- `build` - Build for production
-- `start` - Start production server
-- `test` - Run tests
-- `lint` - Run ESLint
-- `format` - Format code with Prettier
-
-## 🚀 Deployment
-
-This template is ready to be deployed to Vercel. Click the button below to deploy:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AndreChips/next-tailwind-starter)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👏 Acknowledgments
-
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [shadcn/ui](https://ui.shadcn.com/)
