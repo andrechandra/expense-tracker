@@ -22,7 +22,7 @@ A simple, efficient, and user-friendly expense tracker that helps you manage you
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/expense-tracker.git
+   git clone https://github.com/andrechandra/expense-tracker.git
    cd expense-tracker
    ```
 
